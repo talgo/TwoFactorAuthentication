@@ -1,0 +1,6 @@
+@TwoFactorAuthentication.WebAPI_HostAddress = http://localhost:5136
+
+GET {{TwoFactorAuthentication.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

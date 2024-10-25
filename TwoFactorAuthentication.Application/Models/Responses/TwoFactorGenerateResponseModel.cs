@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TwoFactorAuthentication.Application.Models.Responses
+{
+    public class TwoFactorGenerateResponseModel : ResponseBaseModel
+    {
+        public bool IsTokenSent { get; set; }
+        public TimeSpan? ExprirationTime { get; set; }
+    }
+}

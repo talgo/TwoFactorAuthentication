@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TwoFactorAuthentication.Application.Models.Responses
+{
+    public class ResponseBaseModel
+    {
+        public ResponseBaseModel()
+        {
+            Success = string.IsNullOrEmpty(ErrorMessage);
+        }
+
+        public string? ErrorMessage { get; set; }
+        public bool Success { get; set; }
+    }
+}

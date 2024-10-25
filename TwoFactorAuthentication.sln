@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFactorAuthentication.Application", "TwoFactorAuthentication.Application\TwoFactorAuthentication.Application.csproj", "{4ED52FC8-8FAA-4BE3-BE39-3388B449BC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFactorAuthentication.WebAPI", "TwoFactorAuthentication.WebAPI\TwoFactorAuthentication.WebAPI.csproj", "{2D793F66-724A-4608-94EF-072273496EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED52FC8-8FAA-4BE3-BE39-3388B449BC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED52FC8-8FAA-4BE3-BE39-3388B449BC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED52FC8-8FAA-4BE3-BE39-3388B449BC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED52FC8-8FAA-4BE3-BE39-3388B449BC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D793F66-724A-4608-94EF-072273496EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D793F66-724A-4608-94EF-072273496EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D793F66-724A-4608-94EF-072273496EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D793F66-724A-4608-94EF-072273496EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4540C7-DD19-4F80-974A-716A1DE11194}
+	EndGlobalSection
+EndGlobal
